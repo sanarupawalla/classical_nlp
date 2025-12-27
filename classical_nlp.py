@@ -61,7 +61,7 @@ def classify_news(inputtext):
 
 if __name__ == "__main__":
     # Load the model from the pickled data
-    model = pickle.load(open("best_model/text_classification_model.pkl", "rb"))
+    model = pickle.load(open("text_classification_model.pkl", "rb"))
 
     # Set the page title
     st.title("News Classification App")
